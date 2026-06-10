@@ -128,7 +128,7 @@ Add screenshots here:
 
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/Home Page.png)
 
 ### Sign Up Page
 
