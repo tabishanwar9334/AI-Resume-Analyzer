@@ -169,9 +169,9 @@ The complete source code is available in this repository.
 
 https://github.com/YOUR_USERNAME/AI-Resume-Analyzer
 
-### Live Demo (Optional)
+### Live Demo
 
-https://your-project-url.com
+[https://your-project-url.com](https://ai-resume-analyzer-hsufbrzdtpkmhczhq5zybv.streamlit.app/)
 
 ---
 
