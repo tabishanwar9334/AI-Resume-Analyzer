@@ -20,7 +20,7 @@ st.markdown("""
 
 # ---------------------------------
 
-conn=pymongo.MongoClient("mongodb+srv://tabish:<Tabish2004>@cluster0.fm0euup.mongodb.net/?appName=Cluster0")
+conn=pymongo.MongoClient("mongodb+srv://tabish:Tabish2004@cluster0.fm0euup.mongodb.net/?appName=Cluster0")
 try:
     conn.admin.command("ping")
     st.success("✅ MongoDB Connected")
