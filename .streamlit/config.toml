@@ -1,0 +1,9 @@
+[theme]
+backgroundColor = "#0A192F" # Changes the main app background
+secondaryBackgroundColor = "#0F172A" # Changes sidebar and widget backgrounds
+textColor = "#FFFFFF" # Changes main text color
+primaryColor = "#4B9CD3" # Changes primary accent color
+showErrorDetails = false
+
+
+
