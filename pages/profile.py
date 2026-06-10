@@ -11,8 +11,12 @@ with open("style.css") as f:
 # -------------------------------------------------------------------
 
 
-conn=pymongo.MongoClient("mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.1")
-# conn=pymongo.MongoClient("mongodb+srv://kunalg15_db_user:UchdhJoflEo7GMli@citcapp.mong26u.mongodb.net/?appName=CitcApp")
+conn=pymongo.MongoClient("mongodb+srv://tabish:<Tabish2004>@cluster0.fm0euup.mongodb.net/?appName=Cluster0")
+try:
+    conn.admin.command("ping")
+    st.success("✅ MongoDB Connected")
+except Exception as e:
+    st.error(f"❌ MongoDB Error: {e}")
 mydb=conn["ojt2"]
 my=mydb["student"]
 @st.dialog("CHANGE PASSWORD")
